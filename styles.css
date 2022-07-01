@@ -1,0 +1,144 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0; 
+ }
+ body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.tabela {
+    display: flex;
+    height: 115vh;
+    justify-content: center;
+    align-items: center;
+}
+
+table {
+    border: 1px solid #DDDDDD;
+    border-collapse: collapse;
+    width : 700px;
+}
+
+td, th {
+    border-bottom: 1px solid #dddddd;
+    padding: 8px;
+}
+
+.tabela_cabecalho {
+    padding: .3rem 1.2rem;
+    font-size: 13px;
+    text-align: center;
+    font-weight: bold;
+    color: #999999;
+}
+
+.colocacao_na_tabela { 
+    font-weight: bold;
+    font-size: 18px;
+    text-align: center;
+    padding: 0 10px;
+    width: 50px;
+}
+
+.time {
+    font-size: 14px;
+    color: #666666;
+    font-weight: bold;
+    text-align: left;
+    width: 150px;
+}
+
+.pontos {font-weight: bolder;}
+
+.pontos, .vitorias, .derrotas, .golsContra, .aproveitamento {
+    background-color: #F7F7F7;
+  
+}
+
+.coluna_de_Classificacao {
+    text-align: center;
+    font-size: 14px;
+    color: #666666;
+    font-weight: none;
+    width: 63px;
+}
+
+tr:nth-child(4) {border-bottom: 2px solid #CCCCCC;}
+
+tr:nth-child(16) {border-bottom: 2px solid #CCCCCC;}
+
+.cor_azul {color: #003366;}
+
+.cor_azul_celeste {color: #1398BE;}
+
+.cor_amarelo {color: #DE9800;}
+
+.cor_cinza {color: #CCCCCC;}
+
+.cor_vermelho { color: #C91B04;}
+    
+
+.tfoot_Classificacao {
+    font-size: 10px;
+    color: #8F8F8F;
+    text-align: left;
+}
+
+.tfoot_Classificacao .quadrado_TacaLibertadores, .quadrado_PreLibertadores,
+.quadrado_SulAmericana, .quadrado_Rebaixados {
+    padding-left: 13px;
+}
+
+.marcador_TacaLibertadores::before {
+    content: "";
+    border-left: 12px solid #003366;
+    margin-right: 10px;
+    border-radius: 3px;
+}
+
+.marcador_PreLibertadores::before {
+    content: "";
+    border-left: 12px solid #1398BE;
+    margin-right: 10px;
+    border-radius: 3px;
+}
+
+.marcador_SulAmericana::before {
+    content: "";
+    border-left: 12px solid #DE9800;
+    margin-right: 10px;
+    border-radius: 3px;
+}
+
+.marcador_Rebaixados::before {
+    content: "";
+    border-left: 12px solid #C91B04;
+    margin-right: 10px;
+    border-radius: 3px;
+
+}
+
+.tfoot_informacoes_indicadores {padding: 10px 0 0 15px;}
+
+.informacoes_de_indicadores {
+    font-size: 10px;
+    color: #555555;
+    font-weight: bolder;
+    text-align: left;
+}
+
+.indicadores_de_informacoes {
+    font-size: 10px;
+    color: #555555;
+    text-align: left;
+    padding-right:3px;
+    font-weight: bold;
+    
+}
+
+ 
+ 
+ 
+ 
+ 
